@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="all">
+     <h2>{{.Title}}</h2>
+     <br>
+
+
+     <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+     <div style="font-size:18px;">{{.Content}}</div>
+</div>
+
+
+<style>
+     .all {
+          margin-left: 120px;
+          padding-top: 70px;
+          width: 35%;
+     }
+
+     h2 {
+          margin: 0;
+          color: #834c4c;
+     }
+</style>
+{{ end }}

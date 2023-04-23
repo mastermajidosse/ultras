@@ -1,0 +1,101 @@
+<html lang="rtl">
+{{ partial "head" . }}
+
+<body>
+
+    <!-- <table class="leftside">
+        <tbody>
+            {{ range .Site.Menus.main }}
+
+            <tr>
+                <td class="s33">
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </td>
+            </tr>
+            {{end}}
+
+        </tbody>
+    </table> -->
+
+    {{ block "main" .}}
+
+    {{ end }}
+
+
+</body>
+
+
+</html>
+
+<!-- <style>
+    .body {
+        margin-right: 35px;
+        width: 435px;
+        /* align-items: right; */
+    }
+
+    .leftside {
+        width: 80px;
+        align-items: center;
+        text-align: center;
+        background-color: #666699;
+        color: aliceblue;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+
+
+    table {
+        float: left;
+    }
+
+
+    .s90 {
+        height: 90px;
+    }
+
+    .s60 {
+        height: 60px;
+    }
+
+    .s30 {
+        height: 30px;
+    }
+
+    .s33 {
+        height: 30px;
+        border: 1px solid;
+        color: white;
+    }
+
+    .s18 {
+        height: 9px;
+    }
+
+
+
+    a,
+    a:link,
+    a:visited,
+    a:active,
+    a:hover {
+        color: white;
+        margin-left: 5;
+        float: left;
+    }
+
+    .s9 {
+        height: 9px;
+    }
+
+    .title {
+        color: saddlebrown;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .quote {
+        list-style: square;
+    }
+</style> -->

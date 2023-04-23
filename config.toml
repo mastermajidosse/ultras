@@ -1,3 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'www.ultras.ma'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'ultras maroc'
+canonifyURLs = true
+publishDir = 'docs'
+relativeURLs = true
