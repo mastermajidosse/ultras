@@ -9,8 +9,9 @@
 
     <!-- <nav> -->
     <ul class="navbar">
-        <li><a href="#">الرئيسية</a></li>
-        <li><a href="#">من نحن</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">contact </a></li>
     </ul>
     <!-- </nav> -->
 </header>
@@ -26,7 +27,7 @@
         <a href="" class="btn">Download app</a>
     </div>
     <div class="home-img">
-        <img src="img/home2.jpg" alt="">
+        <img src="images/home2.jpg" alt="">
     </div>
 </section>
 
@@ -88,7 +89,7 @@
         justify-content: space-between;
         background: #fff;
         box-shadow: 0 4px 41px rgb(14, 55, 54 / 15%);
-        padding: 15px 10%;
+        padding: 10px 10%;
         transition: 0.2s;
     }
 
@@ -108,9 +109,10 @@
     .navbar a {
         font-size: 1rem;
         padding: 11px 20px;
-        color: var(--third-color);
+        color: #666666;
         font-weight: 600;
         text-transform: uppercase;
+        line-height: 1.5;
     }
 
     .navbar a:hover {
@@ -145,6 +147,12 @@
 
     .home-img img {
         animation: animate 3s linear infinite;
+
+        border-radius: 200px;
+        height: 350px;
+        width: 350px;
+        filter: grayscale(1);
+        object-fit: cover;
     }
 
     @keyframes animate {
