@@ -1,6 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+draft: false
+author: "othman"
+tags: [""]
+categories: ["all"]
+prices: 0
+images: ""
 ---
-

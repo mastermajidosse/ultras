@@ -1,24 +1,8 @@
 {{ define "main" }}
-<header>
 
-    <a href="#" class="logo">
-        Ultras
-        <!-- <img src="img/logo.png"> -->
-    </a>
-    <div class="bx bx-menu" id="menu-icon"></div>
-
-    <!-- <nav> -->
-    <ul class="navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Product</a></li>
-        <li><a href="#">Ultras</a></li>
-        <li><a href="#">contact </a></li>
-    </ul>
-
-    <!-- </nav> -->
-</header>
 
 <body>
+    {{ partial "header" . }}
 
     <section class="home" id="home">
         <div class="home-text">
@@ -30,11 +14,6 @@
             <a href="" class="btn">Download app</a>
         </div>
         <div class="home-img">
-            <!-- <video width="320" height="240" controls>
-                <source src="halala.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video> -->
             <script src="https://fast.wistia.com/embed/medias/xmhcqkmyz2.jsonp" async></script>
             <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
             <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
@@ -63,46 +42,30 @@
         </h2>
 
         <div class="featured__container grid">
+            {{.Content}}
+            {{ range first 3 .Pages }}
             <article class="featured__card">
                 <span class="featured__tag">Sale</span>
 
-                <img src="images/featured1.png" alt="" class="featured__img">
+                <img src="{{ .Params.Images }}" alt="" class="featured__img">
 
                 <div class="featured__data">
-                    <h3 class="featured__title">Drapeau RAJA</h3>
-                    <span class="featured__price">119dh</span>
+
+                    <h3 class="featured__title">{{.Title}}</h3>
+                    <span class="featured__price"> {{ .Params.Prices }} dh</span>
                 </div>
 
-                <button class="button2 featured__button"> Shop </button>
+
+                <a href="{{ .RelPermalink }}">
+
+
+                    <button class="button2 featured__button"> Shop </button>
+                </a>
+
             </article>
+            {{ end }}
 
-            <article class="featured__card">
-                <span class="featured__tag">Sale</span>
 
-                <img src="images/featured2.png" alt="" class="featured__img">
-
-                <div class="featured__data">
-                    <h3 class="featured__title">Puma National</h3>
-                    <span class="featured__price">250dh</span>
-                </div>
-
-                <button class="button2 featured__button">
-                    Shop
-                </button>
-            </article>
-
-            <article class="featured__card">
-                <span class="featured__tag">Sale</span>
-
-                <img src="images/featured3.png" alt="" class="featured__img">
-
-                <div class="featured__data">
-                    <h3 class="featured__title">Hoodie WAC</h3>
-                    <span class="featured__price">350dh</span>
-                </div>
-
-                <button class="button2 featured__button"> Shop </button>
-            </article>
         </div>
     </section>
 
@@ -120,10 +83,32 @@
                 </div>
             </div>
 
-            <img src="images/movil-app.png" alt="" class="app__img">
+            <img src="images/mobil-app.png" alt="" class="app__img">
         </div>
     </section>
 
+    {{ partial "latestitem" . }}
+    <br>
+    <br>
+    <!--========== CONTACT US ==========-->
+    <section class="contact section2 bd-container" id="contact">
+        <div class="contact__container bd-grid">
+            <div class="contact__data">
+                <span class="section2-subtitle contact__initial">Let's talk</span>
+                <h2 class="section2-title contact__initial">Contact us</h2>
+                <p class="contact__description">If you want to reach out , contact us on instagram and we will
+                    get back to you as quick as possible .</p>
+            </div>
+
+            <div class="contact__button">
+                <a href="https://www.instagram.com/ultras.ma_" class="button2">Contact us now</a>
+            </div>
+        </div>
+
+    </section>
+    <br>
+    <br>
+    <br>
     <div class="fullwidth">
         <div class="footer-basic">
             <footer>
@@ -147,6 +132,7 @@
                 </ul>
             </footer>
         </div>
+
         <p class="credit">
             © 2023 Ultras.ma, All Rights Reserved
         </p>

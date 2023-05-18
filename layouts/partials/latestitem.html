@@ -1,0 +1,26 @@
+<section class="featured section3 container" id="latest">
+    <h2 class="section__title">
+        Latest Items
+    </h2>
+
+    <div class="featured__container grid">
+        {{.Content}}
+        {{ range .Pages }}
+        <article class="featured__card">
+            <span class="featured__tag">Sale</span>
+
+            <img src="{{ .Params.Images }}" alt="" class="featured__img">
+
+            <div class="featured__data">
+
+                <h3 class="featured__title">{{.Title}}</h3>
+                <span class="featured__price"> {{ .Params.Prices }} dh</span>
+            </div>
+            <a href="{{ .RelPermalink }}">
+                <button class="button2 featured__button"> Shop </button>
+            </a>
+        </article>
+        {{ end }}
+
+    </div>
+</section>

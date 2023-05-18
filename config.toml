@@ -4,3 +4,8 @@ title = 'ultras maroc'
 canonifyURLs = true
 publishDir = 'docs'
 relativeURLs = true
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+   price = "prices"
+   image = "images"
