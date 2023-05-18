@@ -1,5 +1,9 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-  
+    @font-face {
+        font-family: 'DISTGRG';
+        src: url(../font/DISTGRG.ttf); 
+     }
+
     * {
         margin: 0;
         padding: 0;
@@ -69,6 +73,7 @@
     .logoi {
         display: flex;
         align-items: center;
+        font-family:  DISTGRG;
     }
 
     .logoi img {
@@ -152,6 +157,7 @@
         font-size: 3.2rem;
         color: var(--main-color);
         font-weight: bolder;
+        font-family:  DISTGRG;
     }
 
     .home-text h2 {
