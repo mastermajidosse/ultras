@@ -14,6 +14,7 @@
         list-style: none;
         font-family: "Poppins", sans-serif;
     }
+ 
 
     :root {
         --main-color: #1d412f;
@@ -235,10 +236,11 @@
     .stars {
         margin: 1rem 0 0.1rem;
     }
+   
 
     .shop-container .box .stars .bx {
         color: var(--third-color);
-        ;
+        /* font-size: 36px; */
     }
 
     .shop-container .box h2 {
