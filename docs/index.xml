@@ -6,14 +6,14 @@
     <description>Recent content on ultras maroc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 May 2023 15:08:41 +0100</lastBuildDate><atom:link href="www.ultras.ma/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jun 2023 15:05:41 +0100</lastBuildDate><atom:link href="www.ultras.ma/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cagoule</title>
-      <link>www.ultras.ma/product1/</link>
-      <pubDate>Fri, 05 May 2023 15:08:41 +0100</pubDate>
+      <title>ASFar Tshirt</title>
+      <link>www.ultras.ma/product4/</link>
+      <pubDate>Mon, 05 Jun 2023 15:05:41 +0100</pubDate>
       
-      <guid>www.ultras.ma/product1/</guid>
-      <description>cagoule peut être utilisée dans de nombreuses situations du quotidien que ce soit pour des activités loisirs ou sportives</description>
+      <guid>www.ultras.ma/product4/</guid>
+      <description>Pour les amoureux du club 3askari, t-shirt spécialement conçu pour vous.</description>
     </item>
     
     <item>
@@ -35,15 +35,6 @@
     </item>
     
     <item>
-      <title>ASFar Tshirt</title>
-      <link>www.ultras.ma/product4/</link>
-      <pubDate>Fri, 05 May 2023 15:05:41 +0100</pubDate>
-      
-      <guid>www.ultras.ma/product4/</guid>
-      <description>Pour les amoureux du club 3askari, t-shirt spécialement conçu pour vous.</description>
-    </item>
-    
-    <item>
       <title>HUSA Tshirt</title>
       <link>www.ultras.ma/product5/</link>
       <pubDate>Fri, 05 May 2023 15:03:41 +0100</pubDate>
@@ -54,11 +45,20 @@
     
     <item>
       <title>IRT Tshirt</title>
-      <link>www.ultras.ma/product6/</link>
+      <link>www.ultras.ma/product1/</link>
       <pubDate>Fri, 05 May 2023 15:02:41 +0100</pubDate>
       
-      <guid>www.ultras.ma/product6/</guid>
+      <guid>www.ultras.ma/product1/</guid>
       <description>T-shirt dédié unique aux supporters de l’IRT de Tanger.</description>
+    </item>
+    
+    <item>
+      <title>Cagoule</title>
+      <link>www.ultras.ma/product6/</link>
+      <pubDate>Wed, 05 Apr 2023 15:08:41 +0100</pubDate>
+      
+      <guid>www.ultras.ma/product6/</guid>
+      <description>cagoule peut être utilisée dans de nombreuses situations du quotidien que ce soit pour des activités loisirs ou sportives</description>
     </item>
     
   </channel>

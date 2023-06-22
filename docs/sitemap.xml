@@ -2,40 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>www.ultras.ma/prices/70/</loc>
-    <lastmod>2023-05-05T15:08:41+01:00</lastmod>
+    <loc>www.ultras.ma/prices/150/</loc>
+    <lastmod>2023-06-05T15:05:41+01:00</lastmod>
   </url><url>
-    <loc>www.ultras.ma/categories/all/</loc>
-    <lastmod>2023-05-05T15:08:41+01:00</lastmod>
+    <loc>www.ultras.ma/tags/asfar/</loc>
+    <lastmod>2023-06-05T15:05:41+01:00</lastmod>
   </url><url>
-    <loc>www.ultras.ma/tags/cagoule/</loc>
-    <lastmod>2023-05-05T15:08:41+01:00</lastmod>
+    <loc>www.ultras.ma/categories/asfar/</loc>
+    <lastmod>2023-06-05T15:05:41+01:00</lastmod>
   </url><url>
-    <loc>www.ultras.ma/product1/</loc>
-    <lastmod>2023-05-05T15:08:41+01:00</lastmod>
+    <loc>www.ultras.ma/product4/</loc>
+    <lastmod>2023-06-05T15:05:41+01:00</lastmod>
   </url><url>
     <loc>www.ultras.ma/categories/</loc>
-    <lastmod>2023-05-05T15:08:41+01:00</lastmod>
+    <lastmod>2023-06-05T15:05:41+01:00</lastmod>
   </url><url>
-    <loc>www.ultras.ma/tags/featured/</loc>
-    <lastmod>2023-05-05T15:08:41+01:00</lastmod>
+    <loc>www.ultras.ma/tags/curvache/</loc>
+    <lastmod>2023-06-05T15:05:41+01:00</lastmod>
   </url><url>
-    <loc>www.ultras.ma/tags/maroc/</loc>
-    <lastmod>2023-05-05T15:08:41+01:00</lastmod>
+    <loc>www.ultras.ma/tags/farrabat/</loc>
+    <lastmod>2023-06-05T15:05:41+01:00</lastmod>
   </url><url>
     <loc>www.ultras.ma/prices/</loc>
-    <lastmod>2023-05-05T15:08:41+01:00</lastmod>
+    <lastmod>2023-06-05T15:05:41+01:00</lastmod>
   </url><url>
     <loc>www.ultras.ma/tags/</loc>
-    <lastmod>2023-05-05T15:08:41+01:00</lastmod>
+    <lastmod>2023-06-05T15:05:41+01:00</lastmod>
   </url><url>
     <loc>www.ultras.ma/</loc>
-    <lastmod>2023-05-05T15:08:41+01:00</lastmod>
+    <lastmod>2023-06-05T15:05:41+01:00</lastmod>
   </url><url>
-    <loc>www.ultras.ma/prices/119/</loc>
-    <lastmod>2023-05-05T15:07:41+01:00</lastmod>
+    <loc>www.ultras.ma/tags/ultrasaskary/</loc>
+    <lastmod>2023-06-05T15:05:41+01:00</lastmod>
   </url><url>
     <loc>www.ultras.ma/tags/drapeau/</loc>
+    <lastmod>2023-05-05T15:07:41+01:00</lastmod>
+  </url><url>
+    <loc>www.ultras.ma/tags/featured/</loc>
     <lastmod>2023-05-05T15:07:41+01:00</lastmod>
   </url><url>
     <loc>www.ultras.ma/tags/raja/</loc>
@@ -47,7 +50,7 @@
     <loc>www.ultras.ma/product2/</loc>
     <lastmod>2023-05-05T15:07:41+01:00</lastmod>
   </url><url>
-    <loc>www.ultras.ma/prices/350/</loc>
+    <loc>www.ultras.ma/prices/250/</loc>
     <lastmod>2023-05-05T15:06:41+01:00</lastmod>
   </url><url>
     <loc>www.ultras.ma/tags/hoodie/</loc>
@@ -61,30 +64,6 @@
   </url><url>
     <loc>www.ultras.ma/categories/wac/</loc>
     <lastmod>2023-05-05T15:06:41+01:00</lastmod>
-  </url><url>
-    <loc>www.ultras.ma/prices/300/</loc>
-    <lastmod>2023-05-05T15:05:41+01:00</lastmod>
-  </url><url>
-    <loc>www.ultras.ma/tags/asfar/</loc>
-    <lastmod>2023-05-05T15:05:41+01:00</lastmod>
-  </url><url>
-    <loc>www.ultras.ma/categories/asfar/</loc>
-    <lastmod>2023-05-05T15:05:41+01:00</lastmod>
-  </url><url>
-    <loc>www.ultras.ma/product4/</loc>
-    <lastmod>2023-05-05T15:05:41+01:00</lastmod>
-  </url><url>
-    <loc>www.ultras.ma/tags/curvache/</loc>
-    <lastmod>2023-05-05T15:05:41+01:00</lastmod>
-  </url><url>
-    <loc>www.ultras.ma/tags/farrabat/</loc>
-    <lastmod>2023-05-05T15:05:41+01:00</lastmod>
-  </url><url>
-    <loc>www.ultras.ma/tags/ultrasaskary/</loc>
-    <lastmod>2023-05-05T15:05:41+01:00</lastmod>
-  </url><url>
-    <loc>www.ultras.ma/prices/250/</loc>
-    <lastmod>2023-05-05T15:03:41+01:00</lastmod>
   </url><url>
     <loc>www.ultras.ma/tags/agadir/</loc>
     <lastmod>2023-05-05T15:03:41+01:00</lastmod>
@@ -107,7 +86,7 @@
     <loc>www.ultras.ma/categories/irt/</loc>
     <lastmod>2023-05-05T15:02:41+01:00</lastmod>
   </url><url>
-    <loc>www.ultras.ma/product6/</loc>
+    <loc>www.ultras.ma/product1/</loc>
     <lastmod>2023-05-05T15:02:41+01:00</lastmod>
   </url><url>
     <loc>www.ultras.ma/tags/irtfoot/</loc>
@@ -118,6 +97,21 @@
   </url><url>
     <loc>www.ultras.ma/tags/ultrahercules/</loc>
     <lastmod>2023-05-05T15:02:41+01:00</lastmod>
+  </url><url>
+    <loc>www.ultras.ma/prices/70/</loc>
+    <lastmod>2023-04-05T15:08:41+01:00</lastmod>
+  </url><url>
+    <loc>www.ultras.ma/categories/all/</loc>
+    <lastmod>2023-04-05T15:08:41+01:00</lastmod>
+  </url><url>
+    <loc>www.ultras.ma/tags/cagoule/</loc>
+    <lastmod>2023-04-05T15:08:41+01:00</lastmod>
+  </url><url>
+    <loc>www.ultras.ma/product6/</loc>
+    <lastmod>2023-04-05T15:08:41+01:00</lastmod>
+  </url><url>
+    <loc>www.ultras.ma/tags/maroc/</loc>
+    <lastmod>2023-04-05T15:08:41+01:00</lastmod>
   </url><url>
     <loc>www.ultras.ma/images/</loc>
   </url><url>

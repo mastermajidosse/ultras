@@ -1,11 +1,11 @@
 ---
-title: "IRT Tshirt"
-date: 2023-05-05T15:02:41+01:00
+title: "Cagoule"
+date: 2023-04-05T15:08:41+01:00
 draft: false
-tags: ["irtfoot", "tanger", "ultrahercules"]
-categories: ["irt"]
-prices: 250
-images: "images/irt.jpg"
+tags: ["Cagoule", "maroc", "featured"]
+categories: ["all"]
+prices: 70
+images: "images/cagoule.jpg"
 ---
 
-T-shirt dédié unique aux supporters de l’IRT de Tanger.
+cagoule peut être utilisée dans de nombreuses situations du quotidien que ce soit pour des activités loisirs ou sportives

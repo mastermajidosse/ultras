@@ -1,10 +1,10 @@
 ---
 title: "ASFar Tshirt"
-date: 2023-05-05T15:05:41+01:00
+date: 2023-06-05T15:05:41+01:00
 draft: false
 tags: ["asfar", "ultrasaskary", "curvache", "farrabat"]
 categories: ["asfar"]
-prices: 300
+prices: 150
 images: "images/asfar.png"
 ---
 
