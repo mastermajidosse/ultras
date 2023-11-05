@@ -125,9 +125,9 @@
     .home-img img {
         animation: animate 3s linear infinite;
 
-        border-radius: 200px;
-        height: 350px;
-        width: 350px;
+        border-radius: 300px;
+        height: 410px;
+        width: 430px;
         filter: grayscale(1);
         object-fit: cover;
     }

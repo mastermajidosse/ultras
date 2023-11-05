@@ -1,5 +1,5 @@
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-    @font-face {
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+   @font-face {
         font-family: 'DISTGRG';
         src: url(../font/DISTGRG.ttf); 
      }
@@ -13,6 +13,10 @@
         scroll-behavior: smooth;
         list-style: none;
         font-family: "Poppins", sans-serif;
+    }
+
+    .myfont{
+        font-family: 'Archivo Black', sans-serif !important;
     }
  
 
@@ -125,9 +129,10 @@
     .home-img img {
         animation: animate 3s linear infinite;
 
-        border-radius: 200px;
-        height: 350px;
-        width: 350px;
+        
+        border-radius: 300px;
+        height: 410px;
+        width: 430px;
         filter: grayscale(1);
         object-fit: cover;
     }
