@@ -7,4 +7,5 @@ tags: [""]
 categories: ["all"]
 prices: 0
 images: ""
+zoom: 1
 ---
